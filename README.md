@@ -1,1 +1,0 @@
-Version V2 Premium complète.
