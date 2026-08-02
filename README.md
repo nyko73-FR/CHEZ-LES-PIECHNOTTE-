@@ -1,5 +1,7 @@
-Étape 3
-- Cercle central inspiré de la maquette
-- Cartes premium
-- Défilement fluide
-- Prêt à remplacer le cercle par le logo officiel et le fond par une photo de la pergola.
+Étape 4
+
+Nouveautés :
+- Cercle central plus travaillé
+- 6 cartes de navigation
+- Fond plus proche de l'ambiance terrasse
+- Base pour intégrer le vrai logo et les photos personnelles
