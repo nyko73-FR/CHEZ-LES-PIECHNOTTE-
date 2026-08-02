@@ -1,0 +1,7 @@
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:system-ui;background:#0d0d0d;color:#fff}
+.nav{position:fixed;top:0;left:0;right:0;padding:15px 30px;display:flex;justify-content:space-between;align-items:center;background:rgba(0,0,0,.45);backdrop-filter:blur(12px)}
+.navlogo{height:54px}.nav a{color:#fff;text-decoration:none;margin-left:18px}
+.hero{height:100vh;display:flex;justify-content:center;align-items:center;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.75)),radial-gradient(circle,#3a2b12,#111)}
+.glass{background:rgba(20,20,20,.5);padding:40px;border-radius:20px;text-align:center}
+.heroLogo{width:300px;max-width:90%}.btn{display:inline-block;margin-top:20px;background:#d4a34c;color:#fff;padding:14px 34px;border-radius:999px;text-decoration:none}
+.page{padding:120px 30px}
