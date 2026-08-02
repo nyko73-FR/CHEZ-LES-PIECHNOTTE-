@@ -1,0 +1,10 @@
+
+body{margin:0;font-family:system-ui;background:#101010;color:#fff}
+.hero{min-height:100vh;display:flex;justify-content:center;align-items:center;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.75));}
+.glass{width:min(90%,520px);padding:40px;border-radius:24px;
+background:rgba(255,255,255,.08);backdrop-filter:blur(12px);
+text-align:center;border:1px solid rgba(255,255,255,.15)}
+.logo{max-width:220px;width:70%;margin-bottom:20px}
+.btn{display:inline-block;margin-top:20px;padding:14px 28px;background:#c9962b;
+color:#fff;text-decoration:none;border-radius:14px;font-weight:bold}
