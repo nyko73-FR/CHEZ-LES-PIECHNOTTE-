@@ -1,6 +1,6 @@
-V4.0.2 Partie 5
+V4.0.2 Partie 6
 
-Ajouts :
-- page admin.html
-- style d'administration
-- notes d'intégration pour les prochaines fonctionnalités
+Ajout :
+- dashboard.html
+- tableau de bord des stocks par catégorie
+- lecture des données enregistrées dans le navigateur
