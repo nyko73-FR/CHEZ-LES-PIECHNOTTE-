@@ -1,5 +1,6 @@
-Étape 5
-- Préparation PWA (manifest)
-- Emplacement circulaire pour le logo
-- Grille de navigation
-- Base prête pour intégrer les vraies images et le logo.
+Étape 6
+- Navigation par ancres
+- 6 cartes thématiques
+- Manifest PWA
+- Emplacement du logo
+- Base pour intégrer Home Assistant et les vraies photos
