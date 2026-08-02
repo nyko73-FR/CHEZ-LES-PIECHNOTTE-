@@ -1,0 +1,6 @@
+<!doctype html><html><head><link rel='stylesheet' href='style.css'></head>
+<body><h1>🕒 Historique</h1><ul id='h'></ul>
+<script>
+const hist=JSON.parse(localStorage.getItem('piechnotte_history')||'[]');
+document.getElementById('h').innerHTML=hist.map(x=>'<li>'+x+'</li>').join('');
+</script></body></html>
