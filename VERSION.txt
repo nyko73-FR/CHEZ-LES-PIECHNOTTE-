@@ -1,1 +1,2 @@
-Version 4.0.2 - Partie 1
+Version 4.0.2 - Partie 2
+Ajout du module Apéro
