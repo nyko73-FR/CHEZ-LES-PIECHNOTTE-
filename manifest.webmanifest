@@ -1,8 +1,1 @@
-{
-"name":"Chez les PIECHNOTTE",
-"short_name":"PIECHNOTTE",
-"display":"standalone",
-"start_url":"./",
-"background_color":"#111111",
-"theme_color":"#1d1d1d"
-}
+{"name":"Chez les PIECHNOTTE","display":"standalone","start_url":"./"}
