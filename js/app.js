@@ -1,1 +1,0 @@
-console.log('Sprint3 Partie3');
