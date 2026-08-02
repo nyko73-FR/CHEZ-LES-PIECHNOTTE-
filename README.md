@@ -1,1 +1,0 @@
-V2 Premium avec intégration du logo fourni.
