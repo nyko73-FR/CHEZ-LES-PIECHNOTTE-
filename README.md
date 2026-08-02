@@ -1,6 +1,6 @@
-V4.0.2 Partie 6
+V4.1 Partie 1
 
-Ajout :
-- dashboard.html
-- tableau de bord des stocks par catégorie
-- lecture des données enregistrées dans le navigateur
+Objectif :
+- Préparer une vraie application de gestion.
+- Ajout d'une configuration générale.
+- Préparation des statistiques et de l'administration.
