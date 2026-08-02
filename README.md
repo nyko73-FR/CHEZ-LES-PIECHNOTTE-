@@ -1,4 +1,5 @@
-# Étape 1
-
-Ouvrir index.html.
-Remplace ensuite l'image de fond par une photo de ta pergola lorsque tu seras prêt.
+Étape 2
+- Landing page améliorée
+- Cartes de navigation
+- Style premium
+- Prêt pour remplacer l'image de fond par une photo de la pergola.
