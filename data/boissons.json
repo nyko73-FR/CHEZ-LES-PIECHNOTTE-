@@ -1,20 +1,24 @@
 [
   {
+    "id": "coca",
     "categorie": "Softs",
     "nom": "Coca 33 cl",
     "stock": 7
   },
   {
+    "id": "oasis",
     "categorie": "Softs",
     "nom": "Oasis Tropical 33 cl",
     "stock": 6
   },
   {
+    "id": "goudale_blonde",
     "categorie": "Bières",
     "nom": "Goudale Blonde 25 cl",
     "stock": 10
   },
   {
+    "id": "ricard",
     "categorie": "Alcools",
     "nom": "Ricard 1 L",
     "stock": 1

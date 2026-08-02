@@ -1,1 +1,1 @@
-Sprint 1
+Sprint 2 : commande + sauvegarde locale
