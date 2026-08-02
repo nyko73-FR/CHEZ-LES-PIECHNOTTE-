@@ -1,0 +1,1 @@
+document.querySelectorAll('.button').forEach(b=>b.addEventListener('mouseover',()=>{}));
