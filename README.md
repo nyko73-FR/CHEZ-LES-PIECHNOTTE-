@@ -1,7 +1,5 @@
-Étape 4
-
-Nouveautés :
-- Cercle central plus travaillé
-- 6 cartes de navigation
-- Fond plus proche de l'ambiance terrasse
-- Base pour intégrer le vrai logo et les photos personnelles
+Étape 5
+- Préparation PWA (manifest)
+- Emplacement circulaire pour le logo
+- Grille de navigation
+- Base prête pour intégrer les vraies images et le logo.
