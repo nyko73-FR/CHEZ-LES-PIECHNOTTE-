@@ -1,1 +1,0 @@
-V5.0.4 : sauvegarde locale des stocks et historique des commandes.
