@@ -1,0 +1,1 @@
+V5.0.5 : ajoute un tableau de bord utilisant les données enregistrées.
