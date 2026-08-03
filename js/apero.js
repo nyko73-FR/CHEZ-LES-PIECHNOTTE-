@@ -1,41 +1,55 @@
-// Chez les Piechnotte - V5
-document.addEventListener("DOMContentLoaded", () => {
-  const search = document.getElementById("search");
-  const cards = document.querySelectorAll(".drink-card");
+// Chez les Piechnotte V5.0.3
+// Génère automatiquement les cartes depuis data/boissons.json
 
-  if (search) {
-    search.addEventListener("input", () => {
-      const txt = search.value.toLowerCase();
-      cards.forEach(card => {
-        const name = card.querySelector("h2").textContent.toLowerCase();
-        card.style.display = name.includes(txt) ? "" : "none";
-      });
-    });
+document.addEventListener("DOMContentLoaded", async () => {
+
+  const container=document.getElementById("drinks");
+  const search=document.getElementById("search");
+
+  let boissons=[];
+
+  try{
+    const r=await fetch("../data/boissons.json");
+    boissons=await r.json();
+  }catch(e){
+    container.innerHTML="<p>Impossible de charger les boissons.</p>";
+    return;
   }
 
-  cards.forEach(card => {
-    const button = card.querySelector("button");
-    const stockText = card.querySelector("strong");
-    let stock = parseInt(stockText.textContent, 10);
+  function color(stock){
+    if(stock>5) return "#2ecc71";
+    if(stock>2) return "#f39c12";
+    return "#e74c3c";
+  }
 
-    function updateColor() {
-      card.style.borderLeftColor =
-        stock > 5 ? "#2ecc71" :
-        stock > 2 ? "#f39c12" : "#e74c3c";
-    }
+  function afficher(filtre=""){
+    container.innerHTML="";
+    boissons
+      .filter(b=>b.nom.toLowerCase().includes(filtre.toLowerCase()))
+      .forEach(b=>{
+        const card=document.createElement("article");
+        card.className="drink-card";
+        card.style.borderLeft="6px solid "+color(b.stock);
 
-    updateColor();
+        card.innerHTML=`
+          <h2>${b.nom}</h2>
+          <p>${b.categorie}</p>
+          <p>Stock : <strong>${b.stock}</strong></p>
+          <button ${b.stock===0?"disabled":""}>
+            ${b.stock===0?"Rupture de stock":"Commander"}
+          </button>`;
 
-    button.addEventListener("click", () => {
-      if (stock <= 0) return;
-      stock--;
-      stockText.textContent = stock;
-      updateColor();
+        card.querySelector("button").onclick=()=>{
+          if(b.stock<=0) return;
+          b.stock--;
+          afficher(search.value);
+        };
 
-      if (stock === 0) {
-        button.disabled = true;
-        button.textContent = "Rupture de stock";
-      }
-    });
-  });
+        container.appendChild(card);
+      });
+  }
+
+  search?.addEventListener("input",e=>afficher(e.target.value));
+  afficher();
+
 });
