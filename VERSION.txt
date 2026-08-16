@@ -1,4 +1,2 @@
-Chez les Piechnotte
-Version 4.0.1
-- Base corrigée
-- Structure stabilisée
+Version 4.0.2 - Partie 2
+Ajout du module Apéro
