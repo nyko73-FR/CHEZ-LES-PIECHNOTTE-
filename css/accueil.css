@@ -1,0 +1,6 @@
+
+body{margin:0;background:#101010;color:#fff;font-family:system-ui}
+.hero{min-height:100vh;display:flex;justify-content:center;align-items:center;background:linear-gradient(135deg,#151515,#2b2110)}
+.glass{padding:40px;border-radius:24px;background:rgba(255,255,255,.08);backdrop-filter:blur(10px);text-align:center;width:min(90%,500px)}
+.logo-placeholder{font-size:72px}
+.btn{display:inline-block;margin-top:20px;padding:14px 28px;background:#c9962b;color:#fff;text-decoration:none;border-radius:12px}
